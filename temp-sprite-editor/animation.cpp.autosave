@@ -1,0 +1,28 @@
+#include "animation.h"
+#include <QMessageBox>
+
+/*
+ * Authors:
+ * Boden Archuleta
+ * Bashar Habash
+ * Rob Shamshoian
+ * Ali Al Obaidi
+ * 
+ * Sprite Editor 
+ */
+Animation::Animation()
+{
+
+}
+
+void Animation::make()
+{
+
+}
+
+void Animation::display()
+{
+    QMessageBox screen;
+    screen.setText("TODO show animation");
+    screen.exec();
+}

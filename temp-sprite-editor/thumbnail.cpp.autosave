@@ -1,0 +1,22 @@
+#include "thumbnail.h"
+#include <iostream>
+
+/*
+ * Authors:
+ * Boden Archuleta
+ * Bashar Habash
+ * Rob Shamshoian
+ * Ali Al Obaidi
+ * 
+ * Sprite Editor 
+ */
+Thumbnail::Thumbnail(QWidget* parent, Qt::WindowFlags f, int id)
+    : QLabel(parent) {
+    this->id = id;
+}
+
+Thumbnail::~Thumbnail() {}
+
+void Thumbnail::mousePressEvent(QMouseEvent* event) {
+    emit send_thumbnail_click_event(id);
+}

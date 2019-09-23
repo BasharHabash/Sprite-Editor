@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>canvas-background-light.png</file>
+    </qresource>
+    <qresource prefix="/icons"/>
+</RCC>
